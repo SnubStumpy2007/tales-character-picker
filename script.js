@@ -1,6 +1,6 @@
-let choice = prompt(
-  "Enter a character name from the video game Tales of Xillia"
-);
+// let choice = prompt(
+//   "Enter a character name from the video game Tales of Xillia"
+// );
 
 switch (choice) {
   case "Jude Mathis":
@@ -20,6 +20,7 @@ switch (choice) {
     break;
   case "Milla Maxwell":
     console.log("Milla Maxwell");
+    break;
   default:
     console.log("invalid choice");
 }
