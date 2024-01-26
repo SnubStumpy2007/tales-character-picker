@@ -1,6 +1,6 @@
-// let choice = prompt(
-//   "Enter a character name from the video game Tales of Xillia"
-// );
+let choice = document.getElementsByClassName("choice")
+let btn = document.getElementsByClassName("btn")
+
 
 switch (choice) {
   case "Jude Mathis":
